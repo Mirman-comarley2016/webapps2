@@ -6,6 +6,7 @@
   <link type="text/css" rel="stylesheet" href="foundation/css/normalize.css" />
   <link type="text/css" rel="stylesheet" href="foundation/css/foundation.css" />
   <script src="foundation/js/foundation.min.js"></script>
+  <script src="foundation/js/foundation/topbar.js"></script>
   <!--  OUR APP-->
   <link type="text/css" rel="stylesheet" href="main.css" />
 </head>
@@ -13,49 +14,45 @@
   <h1>Mirman Apps</h1>
 
   <nav <nav class="top-bar" data-topbar role="navigation">
-  <ul class="title-area">
-    <li class="name">
-      <h1><a href="#">My Site</a></h1>
-    </li>
-     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-  </ul>
-
-  <section class="top-bar-section">
-    <!-- Right Nav Section -->
-    <ul class="right">
-      <li class="active"><a href="#">Right Button Active</a></li>
-      <li class="has-dropdown">
-        <a href="#">More Info</a>
-        <ul class="dropdown">
-          <li><a href="https://mirman.org">Visit Our Website</a></li>
-          <li class="active"><a href="#">Active link in dropdown</a></li>
-        </ul>
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="#">My Site</a></h1>
       </li>
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
     </ul>
 
-    <!-- Left Nav Section -->
-    <ul class="left">
-      <li><a href="https://pbs.twimg.com/profile_images/638751551457103872/KN-NzuRl.png">See Work</a></li>
-    </ul>
-  </section>
-</nav>
-<div class="icon-bar five-up">
-  <a class="item">
-    <img href = "about.html"
-    <label>About</label>
-  </a>
-  <a class="item">
-    <img href = "project.html"
-    <label>Projects</label>
-  </a>
-  <a class="item">
-    <img href = "contact.html"
-      <label>Contact</label>
-  </a>
-</div>
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="active"><a href="#">Right Button Active</a></li>
+        <li class="has-dropdown">
+          <a href="#">More Info</a>
+          <ul class="dropdown">
+              <a class="item">
+                <label>About</label>
+              </a>
+              <a class="item">
+                <label>Projects</label>
+              </a>
+              <a class="item">
+                <label>Contact</label>
+              </a>
+            </div>
+            <li><a href="https://mirman.org">Visit Our Website</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li><a href="https://pbs.twimg.com/profile_images/638751551457103872/KN-NzuRl.png">See Work</a></li>
+      </ul>
+    </section>
+  </nav>
   <div id="about">
     <h2>Gifted Apps from Gifted Students</h2>
+    <img src = /usr/local/opt>
     <p>
       Mirman Apps developers are as bright as they get. Smart code from smart coders.
     </p>
@@ -80,6 +77,8 @@
     </p>
     <a href="http://mirman.org"><button type="button">Get Started</button></a>
   </div>
-
+  <script>
+    $(document).foundation();
+  </script>
 </body>
 </html>

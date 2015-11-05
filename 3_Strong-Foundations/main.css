@@ -4,4 +4,9 @@ Add custom CSS in here
 
 @font-face {
   font-family: sans-serif;
+  font-style: oblique;
+}
+
+h2 {
+  color: lightblue;
 }

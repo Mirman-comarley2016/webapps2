@@ -13,9 +13,10 @@ $(document).ready(function(){
       email: z,
       message: a
     }
-    $.post
+    $.post()
     console.log(event);
   })
+
 });
 //Use jQuery to collect the values from the fields and create a
 //JSON object containing them. Then, log the result to the console

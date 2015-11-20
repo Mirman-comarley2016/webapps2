@@ -13,8 +13,8 @@ $(document).ready(function(){
       email: z,
       message: a
     }
-    $.post()
-    console.log(event);
+    $.post(newObj)
+    console.log(newObj);
   })
 
 });

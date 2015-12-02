@@ -13,8 +13,8 @@ $(document).ready(function(){
       email: z,
       message: a
     }
-    $.post(newObj)
-    console.log(newObj);
+    $.post("http://x.mirman.org:1031/ground4loor", "newObj", function(response));
+    console.log(response);
   })
 
 });

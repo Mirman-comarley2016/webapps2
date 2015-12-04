@@ -13,9 +13,10 @@ $(document).ready(function(){
       email: z,
       message: a
     }
-    $.post("http://x.mirman.org:1031/ground4loor", "newObj", function(response));
-    console.log(response);
-  })
+    $.post("http://x.mirman.org:1031/ground4loor", newObj, function(response){
+      console.log(response);
+    });
+  });
 
 });
 //Use jQuery to collect the values from the fields and create a

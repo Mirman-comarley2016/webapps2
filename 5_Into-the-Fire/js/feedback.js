@@ -26,3 +26,16 @@ ref.on("value", function(snapshot)  {
 }), function (errorObject) {
   console.log("The read failed: " + errorObject.code);
 };
+
+var results = {
+  firstname: x,
+  lastname: y,
+  email: z,
+  message: a
+}
+
+$("snapshot").data("results");
+$.post("https://blazing-heat-1916.firebaseio.com/" function(snapshot)  (<li> "firstname" + "lastname" + "email" + "message")
+
+  //$.append(newLi)
+  //$.append(newLi)(<li> )
